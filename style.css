@@ -173,6 +173,16 @@ font-family:'Times New Roman';
 font-style: italic;
 
 }
+.Services h2{
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 15px;
+color:#000000;
+font-family:'Times New Roman';
+font-weight: 300;
+line-height: 25px;
+
+}
 .Services p{
 color:#000000;
 font-size: 18px;
@@ -220,6 +230,10 @@ box-shadow: 0 0 50px 5px rgba(42, 42, 43, 0.4);
 @media(width <= 600px){
     .Services h1{
         font-size: 30px;
+    }
+    .Services h2{
+        font-size: 12px;
+       
     }
 
 .row1{
@@ -510,30 +524,34 @@ padding:5px;
         display: flex;
        justify-content: center;
        align-items: center;
-    font-size: 13px;
+    
            
     }
  
     .contactinfo {
         text-align: center;
+        
             
     }
     .contactinfo h3{
         text-align: center;
         
+        
     }
     .footer-col h3{
-        font-size: 16px;
+        font-size: 23px;
           
     }
     
     .navbtm {
         padding-right: 0px;
         margin-top: -30px;
+
+        
         
     }
     .navbtm ul li a{
-        margin:3px;
+        padding:0px;
     }
     .links{
         margin-top: -20px;  
@@ -541,7 +559,7 @@ padding:5px;
     }
 }
 .bottom-bar p{
-    font-size: 12px;
+    font-size: 11px;
 }
 /* projects gallery */
 .sub-header{
