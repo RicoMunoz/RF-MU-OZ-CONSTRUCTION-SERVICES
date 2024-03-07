@@ -1,7 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 *{
     margin: 0;
@@ -501,7 +499,6 @@ height: 60px;
 }
 }
 /* FOOTER NAVIGATION */
-
 footer{
 margin-top: 70px;
 width: auto;
@@ -510,63 +507,72 @@ display: flex;
 justify-content:center;
 background-color: #002c5a;
 padding: 20px 5%;   
-color:#867649;
+
 }
 .contactinfo ul{
 list-style:none;  
-}
-.footer-col h3{
-margin-bottom: 10px;
-font-family: "Montserrat", sans-serif;
-font-weight: 200;
-font-size:22px;
-color:#fff;
-}
-.footer-col{
-margin: 20px;
-}
-
-.footer-col ul li a{
-text-decoration: none;
-transition: 0.4s;
-color:#fff;
-padding-top: 3px;
-font-family: "Montserrat", sans-serif;
-font-weight: 300;
-font-size:18px;
-    
-}
-.footer-col h3:hover{
-transition: 0.4s;
-color:#867649;
-padding-left: 2px;
-}
-
-.footer-col ul li a:hover{
-color:#867649;
-padding-left: 2px;
-}
-.contactinfo ul li a{
+color:#b7c4bd;
 font-size: 14px;
-padding-top: 10px;
-    
+}
+.contactinfo ul li:hover{
+    color:#fff;
+    padding-left: 2px;
     
 }
 .contactinfo{
 text-align: left;
 font-family: "Montserrat", sans-serif;
 }
+.footer-col h3{
+margin-bottom: 10px;
+font-family: "Montserrat", sans-serif;
+font-weight: 200;
+font-size:22px;
+color:#b7c4bd;
+
+}
+.footer-col{
+margin: 15px;
+}
+
+.footer-col ul li a{
+text-decoration: none;
+transition: 0.4s;
+color:#b7c4bd;
+padding-top: 3px;
+font-family: "Montserrat", sans-serif;
+font-weight: 200;
+font-size:18px;
+    
+}
+.footer-col h3:hover{
+transition: 0.4s;
+color:#fff;
+padding-left: 2px;
+}
+
+.footer-col ul li a:hover{
+color:#fff;
+padding-left: 2px;
+}
+
 .links ul li a{
 font-size: 18px;
 
 }
 .navbtm {
-padding-right: 80px;
+padding-right: 60px;
+text-align: center;
+
     
 }
 .navbtm ul li {
 display:inline-block;
 padding:5px;
+
+}
+.links{
+text-align: center;
 
 }
 .links ul li{
@@ -598,8 +604,7 @@ font-size: 15px;
                  
 }
 .contactinfo h3{
-text-align: center;
-            
+text-align: center;            
 }
 .footer-col h3{
 font-size: 15px;
