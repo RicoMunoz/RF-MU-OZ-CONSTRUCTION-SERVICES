@@ -563,7 +563,6 @@ font-size: 18px;
 .navbtm {
 padding-right: 60px;
 text-align: center;
-
     
 }
 .navbtm ul li {
@@ -573,7 +572,7 @@ padding:5px;
 }
 .links{
 text-align: center;
-
+color:#b7c4bd;
 }
 .links ul li{
 display: inline-block;
@@ -608,7 +607,6 @@ text-align: center;
 }
 .footer-col h3{
 font-size: 15px;
-color:#fff;
 }
     
 .navbtm {
